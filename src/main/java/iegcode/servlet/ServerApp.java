@@ -6,9 +6,9 @@ import org.springframework.boot.web.servlet.ServletComponentScan;
 
 @ServletComponentScan
 @SpringBootApplication
-public class BelajarServletApp {
+public class ServerApp {
 
     public static void main(String[] args) {
-        SpringApplication.run(BelajarServletApp.class);
+        SpringApplication.run(ServerApp.class);
     }
 }
