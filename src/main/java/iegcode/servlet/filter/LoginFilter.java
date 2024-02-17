@@ -20,7 +20,7 @@ public class LoginFilter extends HttpFilter {
 
             if (username == null){
                 response.setStatus(401);
-                response.getWriter().println("You need to login first");
+                response.getWriter().println("You need to login first:)");
             } else {
                 chain.doFilter(request, response);
             }
